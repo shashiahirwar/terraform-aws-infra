@@ -1,0 +1,19 @@
+# Ignore local Terraform state and backup files
+*.tfstate
+*.tfstate.backup
+.crash
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+
+# Ignore sensitive variable files
+secrets.tfvars
+
+# Ignore system or editor-specific files
+*.exe
+*.png
+*.jpg
+*.jpeg
+
+# Ignore Terraform provider binary junk
+*.0_x5
